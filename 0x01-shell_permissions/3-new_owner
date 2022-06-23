@@ -1,2 +1,2 @@
 #!/bin/bash
-chown betty newfile.txt 
+sudo chown betty hello
