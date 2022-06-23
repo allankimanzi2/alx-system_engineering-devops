@@ -1,2 +1,2 @@
 #!/bin/bash
-chown user filename
+chown betty newfile.txt 
