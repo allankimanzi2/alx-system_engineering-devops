@@ -1,2 +1,2 @@
 #!/bin/bash
-file -name "^_js" type f -delete
+file -name "^_js" -type f -delete
