@@ -1,2 +1,3 @@
 #!/bin/bash
-echo aa
+printf "%s\n" {a..z}{a..z} | grep -v "oo":wq
+
