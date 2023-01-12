@@ -48,3 +48,18 @@ Tasks 📃
         clean
             Deletes the archive holbertonwebapp.tar.gz in the local directory.
 
+apt-get -y install
+
+
+From the results of running man apt-get
+
+-y, --yes, --assume-yes
+           Automatic yes to prompts; assume "yes" as answer to all prompts and
+           run non-interactively. If an undesirable situation, such as
+           changing a held package, trying to install a unauthenticated
+           package or removing an essential package occurs then apt-get will
+           abort. Configuration Item: APT::Get::Assume-Yes.  
+
+If you run an apt-get command without the -y option, you need to answer to all prompts that you get from that command interactively in order for the execution of the command to continue.
+
+
